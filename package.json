@@ -1,0 +1,27 @@
+{
+  "name": "duo-handlebars",
+  "version": "0.0.0",
+  "description": "A duo plugin for precompiling Handlebars templates",
+  "keywords": [
+    "duo",
+    "handlebars",
+    "plugin"
+  ],
+  "dependencies": {
+    "co-fs": "^1.2.0",
+    "debug": "~2.0.0",
+    "extend": "~1.3.0",
+    "handlebars": "~2.0.0-alpha.4"
+  },
+  "devDependencies": {
+    "co-mocha": "^1.0.1",
+    "duo": "^0.8.2",
+    "gnode": "0.0.8",
+    "mocha": "^1.21.4",
+    "rimraf": "^2.2.8",
+    "thunkify": "^2.1.2"
+  },
+  "scripts": {
+    "test": "gnode ./node_modules/.bin/_mocha --require co-mocha"
+  }
+}
